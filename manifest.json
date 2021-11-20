@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name":"Ozdemir Launcher",
+    "description":"Quick launc most used developer websites",
+    "version":"1.0.0",
+    "icons":{"128":"github_128.png"},
+    "browser_action":{
+        "default_icon":"github_128.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"]
+}
