@@ -3,9 +3,9 @@
     "name":"Ozdemir Launcher",
     "description":"Quick launc most used developer websites",
     "version":"1.0.0",
-    "icons":{"128":"github_128.png"},
+    "icons":{"128":"images/icon.png"},
     "browser_action":{
-        "default_icon":"linkedin_128.png",
+        "default_icon":"images/icon.png",
         "default_popup":"popup.html"
     },
     "permissions":["activeTab"]

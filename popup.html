@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ozdemir Launcher</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type='text/css'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" 
-    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <style>
         html,body{
             font-family: 'Open Sans',sans-serif;
@@ -19,17 +18,69 @@
         }
         h1{
             font-family: 'Menlo',monospace;
-            font-size: 22px;
+            font-size: 15px;
             font-weight: 400;
             margin:0;
             color:blue; 
+        }
+        a:link,a:visited{
+            color:black;
+            outline: 0;
+            text-decoration: none;
+        }
+        img{
+            width: 30px;
+        }
+        .modal-header{
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+        .modal-content{
+            padding: 0 22px;
+        }
+        .modal-icons{
+            border-top:0.5px #dadada;
+            height: 50px;
+            width: 100%;
+        }
+        .logo{
+            padding: 60px;
+        }
+        .logo-icon{
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+        .version{
+            color: #444;
+            font-size: 18px;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .flex{
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+        .felx:hover{
+            opacity: 0.4;
+        }
+        .flex .fa{
+            font-size: 40px;
+            color: #2f5876;
+        }
+        .flex .fab{
+            font-size: 40px;
+            color: #2f5876;
         }
     </style>
 </head>
 <body>
     <div class="modal-header">
         <h1 class="logo">
-            <img src="images/turkey_128.png" alt="Turkey" class="logo-icon"> Turkey <span class="version">(1.0.0)</span>
+            <img src="images/icon.png" alt="Hasan" class="logo-icon">Hasan Özdemir<span class="version">(1.0.0)</span>
         </h1>
     </div>
     <div class="modal-content">
@@ -38,21 +89,21 @@
     <div class="modal-icons">
         <div class="flex-container">
             <div class="flex">
-                <a href="https://www.linkedin.com/" target="_blank">
-                    <i class="fa fa-linkedin">
-
-                    </i></a>
-            </div>
-            <div class="flex">
                 <a href="https://github.com/" target="_blank">
-                    <i class="fa fa-github">
+                    <i class="fab fa-github"></i>
                         
+                    </i></a>f
+            </div>
+            <div class="flex">
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    
                     </i></a>
             </div>
             <div class="flex">
-                <a href="https://www.youtube.com/" target="_blank">
-                    <i class="fa fa-youtube">
-                        
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <i class="fab fa-hackerrank">
+
                     </i></a>
             </div>
         </div>
